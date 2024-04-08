@@ -1,0 +1,26 @@
+{
+	"name": "fastify-streamfile",
+	"version": "1.0.2",
+	"description": "Easy to use static file streaming functionality for Fastify.",
+	"main": "index.mjs",
+	"author": {
+		"name": "Matthew James",
+		"email": "mattdestroyerpro@gmail.com",
+		"url": "https://mattdestroyer.replit.app"
+	},
+	"contributors": [
+		{
+			"name": "Matthew James",
+			"email": "mattdestroyerpro@gmail.com",
+			"url": "https://mattdestroyer.replit.app"
+		}
+	],
+	"keywords": [
+		"fastify",
+		"static",
+		"server",
+		"sendFile",
+		"streamFile"
+	],
+	"license": "MIT"
+}
