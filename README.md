@@ -3,9 +3,9 @@ A lightweight package that adds essential, easy-to-use file sending functionalit
 
 ## Using fastify-streamfile
 ```js
-import streamFile from "fastify-streamfile";
+import FastifyStreamFile from "fastify-streamfile";
 
-fastify.register(fStreamFile);
+fastify.register(FastifyStreamFile);
 ```
 
 ## Methods

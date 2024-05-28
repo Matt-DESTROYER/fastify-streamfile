@@ -1,6 +1,9 @@
 {
 	"name": "fastify-streamfile",
-	"version": "1.0.2",
+	"version": "1.0.3",
+	"dependencies": {
+		"fastify-plugin": "^4.5.1"
+	},
 	"description": "Easy to use static file streaming functionality for Fastify.",
 	"main": "index.mjs",
 	"author": {
