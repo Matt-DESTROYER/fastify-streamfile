@@ -1,3 +1,8 @@
+[![Version](https://img.shields.io/npm/v/fastify-streamfile.svg?style=flat)](https://www.npmjs.com/package/fastify-streamfile)
+[![Install size](https://packagephobia.com/badge?p=fastify-streamfile)](https://www.npmjs.com/package/fastify-streamfile)
+[![Minzipped size](https://img.shields.io/bundlephobia/minzip/fastify-streamfile?style=flat)](https://www.npmjs.com/package/fastify-streamfile)
+[![Downloads/month](https://img.shields.io/npm/dm/fastify-streamfile.svg?style=flat)](https://www.npmjs.com/package/fastify-streamfile)
+
 # fastify-streamfile
 A lightweight package that adds essential, easy-to-use file sending functionality using decorators.
 
