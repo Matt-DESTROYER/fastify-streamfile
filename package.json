@@ -6,6 +6,9 @@
 	},
 	"description": "Easy to use static file streaming functionality for Fastify.",
 	"main": "index.mjs",
+	"scripts": {
+		"test": "echo \"No tests to perform\" && exit 0"
+	},
 	"author": {
 		"name": "Matthew James",
 		"email": "mattdestroyerpro@gmail.com",

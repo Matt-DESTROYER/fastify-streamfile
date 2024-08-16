@@ -183,4 +183,4 @@ const staticStream = fastifyPlugin(function register(fastify, options, done) {
 	done();
 });
 
-export default staticStream;
+module.exports = staticStream;
