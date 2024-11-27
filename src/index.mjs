@@ -128,17 +128,14 @@ const FastifyStreamFile = FastifyPlugin((fastify, options, done) => {
 		// type checking (for nice errors)
 		if (typeof folder !== "string") {
 			console.error("[fastify-streamfile.static] Type error: expected parameter `folder` to be of type 'string'.");
-			this.code(500);
 			return;
 		}
 		if (typeof root !== "string") {
 			console.error("[fastify-streamfile.static] Type error: expected parameter `root` to be of type 'string'.");
-			this.code(500);
 			return;
 		}
 		if (typeof route !== "string") {
 			console.error("[fastify-streamfile.static] Type error: expected parameter `route` to be of type 'string'.");
-			this.code(500);
 			return;
 		}
 		// read the folder
@@ -165,7 +162,6 @@ const FastifyStreamFile = FastifyPlugin((fastify, options, done) => {
 			}
 		} catch (err) {
 			console.error("[fastify-streamfile.static] Failed to read folder '" + folder + "': " + err);
-			this.code(500);
 			return;
 		}
 	});
