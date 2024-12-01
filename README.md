@@ -11,6 +11,17 @@ A lightweight package that adds essential, easy-to-use file sending functionalit
 import FastifyStreamFile from "fastify-streamfile";
 
 fastify.register(FastifyStreamFile);
+
+// (optional) setup a static folder
+
+// get `__dirname`
+import { fileURLToPath } from "node:url";
+import path from "node:path";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// this should be (and will cause errors if not) run after the plugin is registered
+fastify.after(() => fastify.static(path.join(__dirname, "static")));
 ```
 
 ## Methods
