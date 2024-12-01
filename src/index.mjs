@@ -14,10 +14,10 @@ const FastifyStreamFile = FastifyPlugin((fastify, options, done) => {
 		 * 
 		 * Parameters:
 		 * - file: the file to send
-		 * - ?root: the parent directory of the file (defaults to "/")
+		 * - ?root: the parent directory of the file (defaults to "")
 		 */
-		// default root to "/"
-		root ||= "/";
+		// default root to ""
+		root ||= "";
 		// type checking (for nice errors)
 		if (typeof file !== "string") {
 			console.error("[fastify-streamfile.streamFile] Type error: expected parameter `file` to be of type 'string'.");
@@ -114,7 +114,7 @@ const FastifyStreamFile = FastifyPlugin((fastify, options, done) => {
 		 * 
 		 * Parameters:
 		 * - folder: the folder containing the files to host
-		 * - ?root: the parent directory of the file (defaults to "/")
+		 * - ?root: the parent directory of the file (defaults to "")
 		 * - ?route: the route to host the files at (defaults to "/static")
 		 * - ?depth: the maximum search depth of the root folder (defaults to Infinity)
 		 */
@@ -123,7 +123,7 @@ const FastifyStreamFile = FastifyPlugin((fastify, options, done) => {
 			depth = Infinity;
 		}
 		// default root and route
-		root ||= "/";
+		root ||= "";
 		route ||= "/static";
 		// type checking (for nice errors)
 		if (typeof folder !== "string") {
