@@ -1,6 +1,6 @@
 {
 	"name": "fastify-streamfile",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"dependencies": {
 		"fastify-plugin": "^4.5.1"
 	},
